@@ -1,0 +1,64 @@
+@mixin a-with-hover($a-color, $a-decoration, $hover-color, $hover-decoration) {
+  color: $a-color;
+  text-decoration: $a-decoration;
+  &:hover {
+   color: $hover-color;
+   text-decoration: $hover-decoration;
+  }
+}
+
+@mixin rounded($radius: 0.5em) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+
+@mixin transition($time) {
+  -o-transition: $time;
+  -ms-transition: $time;
+  -moz-transition: $time;
+  -webkit-transition: $time;
+  transition: $time;
+}
+
+@mixin background-with-hover($background-color, $hover-background-color) {
+  background-color: $background-color !important;
+  &:hover { background-color: $hover-background-color !important; }
+}
+
+
+
+// Greens
+$turquoise: #1ABC9C;
+$green-sea: #16A085;
+$emerald: #2ECC71;
+$nephritis: #27AE60;
+
+// Blues
+$peter-river: #3498DB;
+$belize-hole: #2980B9;
+$wet-asphalt: #34495E;
+$midnight-blue: #2C3E50;
+
+// Purples
+$amethyst: #9B59B6;
+$wisteria: #8E44AD;
+
+// Yellows
+$sunflower: #F1C40F;
+
+// Oranges
+$orange: #F39C12;
+$carrot: #E67E22;
+$pumpkin: #D35400;
+
+// Reds
+$alizarin: #E74C3C;
+$pomegranate: #C0392B;
+
+// Grays
+$clouds: #ECF0F1;
+$silver: #BDC3C7;
+$concrete: #95A5A6;
+$asbestos: #7F8C8D;
