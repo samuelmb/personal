@@ -3,6 +3,7 @@
     style="
       position: fixed;
       background: url(assets/sf1.jpg);
+      background-repeat: norepeat;
       top: 0%;
       left: 0%;
       height: 110%;
@@ -16,9 +17,10 @@
   <div 
     data-0="
       position: fixed; 
+
       left:50%; 
       margin-left: -45%; 
-      top: 20px; 
+      top: 40px;
       width: 90%; 
       border-color: rgba(200,200,200, 1);
       background-color: rgba(255, 255, 255, 0.6);"
@@ -41,7 +43,7 @@
         <ul class="no-bullet subheader">
           <li> <h4 > <a href="#" id="projects"
             data-0="
-              color[cubic]: rgba(155, 89, 182,1.0);"
+              color[cubic]: rgba(155, 89, 182, 1.0);"
             data-500="
               color: rgba(225, 225, 225, 1.0);
               border-left: 3px solid rgba(225, 225, 225, 0.0);"
@@ -55,7 +57,7 @@
             </a> </h4> </li>
           <li> <h4> <a href="#" id="resume"
             data-0="
-              color[cubic]: rgba(155, 89, 182,1.0);"
+              color[cubic]: rgba(155, 89, 182, 1.0);"
             data-500="
               color: rgba(225, 225, 225, 1.0);"
             data-4000="
@@ -70,7 +72,7 @@
           </a> </h4> </li>
           <li> <h4> <a href="#" id="contact"
             data-0="
-              color[cubic]: rgba(155, 89, 182,1.0);"
+              color[cubic]: rgba(155, 89, 182, 1.0);"
             data-500="
               color: rgba(225, 225, 225, 1.0);"
             data-6000="
@@ -94,7 +96,7 @@
              left: 30%;
              width: 65%;"
       data-0="top: 100%;
-              opacity: 0;"
+              opacity[cubic]: 0;"
       data-1000="top: 5%;
                 opacity: 1;"
       data-2000="top: -45%";
@@ -131,9 +133,10 @@
       style="position: fixed;
              top: 100%;
              left: 30%;
-             width: 65%;"
+             width: 65%;
+             height: 90%"
       data-3500="top: 100%;
-              opacity: 0;"
+              opacity[cubic]: 0;"
       data-4500="top: 5%;
                 opacity: 1;"
       data-5500="top: 5%;"
@@ -143,6 +146,7 @@
         <div class="panel">
           You can download a pdf version of my resume <a href="resume.pdf"> here</a>.
         </div>
+        <iframe id="resume-pdf" src="http://docs.google.com/gview?url=http://samuel.io/resume.pdf&embedded=true" style="width: 100%; max-height: 80%;" frameborder="0"></iframe>
     </div>
 
     <div 
@@ -152,7 +156,7 @@
              left: 30%;
              width: 65%;"
       data-5500="top: 100%;
-              opacity: 0;"
+              opacity[cubic]: 0;"
       data-6500="top: 5%;
                 opacity: 1;"
       data-7500="top: 5%;">

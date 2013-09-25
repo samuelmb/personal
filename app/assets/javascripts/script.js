@@ -14,4 +14,11 @@ $(function() {
     $(window).scrollTo({top: 6500, left: 0}, 800);
   });
 
+  $(window).on("resize", function(event) {
+    var iframe = $('#resume-pdf');
+    var width = iframe.width();
+    console.log(width);
+    iframe.height(width * 11 / 8.5);
+  })
+
 });
