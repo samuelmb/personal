@@ -17,7 +17,6 @@ $(function() {
   $(window).on("resize", function(event) {
     var iframe = $('#resume-pdf');
     var width = iframe.width();
-    console.log(width);
     iframe.height(width * 11 / 8.5);
   })
 
