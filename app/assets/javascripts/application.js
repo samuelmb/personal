@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.scrollTo
 //= require skrollr
 //= require skrollr.menu
 //= require foundation
